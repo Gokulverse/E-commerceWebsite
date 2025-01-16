@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(2, 224, 206, 0.4) 0px 5px, rgba(0, 255, 234, 0.3) 0px 10px, rgba(161, 247, 3, 0.2) 0px 15px, rgba(172, 1, 109, 0.1) 0px 20px, rgba(226, 1, 12, 0.05) 0px 25px;
+}
+.navbar-links{
+  display: flex;
+  column-gap: 20px;
+
+
+}
+
+.navbar-links a{
+  text-decoration: none;
+  color: #1D232C;
+
+}
+
+.navbar-links a:hover{
+  text-decoration: underline;
+  color: #1D232C;
+
+}
+
+.navbar-menu-toggle{
+  display: none;
+}
+
+.side-navbar{
+  background-color: #1D232C;
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  padding: 20px;
+  color: white;
+  display: none;
+}
+
+.side-navbar-link{
+  margin-bottom: 30px;
+}
+
+.side-navbar-links a{
+  text-decoration: none;
+  color: white; 
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+}
+
+
+
+.header-button{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  background-color: #1D232C;
+  color: white;
+  cursor: pointer;
+
+}
+
+.service{
+  padding: 20px;
+}
+
+.service-container-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-container-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.service-container-2 div{
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.New-arrival{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.new-arrival-container{
+  
+  position: relative;
+  flex-basis: 20%;
+
+}
+
+.New-arrival button{
+
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 10px;
+  color: #1D232C;
+  border-radius: 10px;
+  
+
+}
+
+.news{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+.news input{
+  padding: 11px;
+  width: 80vw;
+  margin-bottom: 10px;
+  border:solid black 3px;
+}
+
+.news button{
+  margin-top: 10px;
+  color: blanchedalmond;
+  background-color: rgb(15, 8, 9);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.footer{
+  margin-top: 20px;
+  padding: 40px;
+  background-color: #1D232C;
+  color: aliceblue;
+
+
+}
+
+@media screen and (max-width:700px) {
+  .navbar-menu-toggle{
+    display: block;
+  }
+  .navbar-links{
+    display: none;
+  }
+  .header-image{
+    display: none;
+  }
+  .service-container-1{
+    display: none;
+  }
+  .service-container-2{
+    flex-direction: column;
+
+  }
+  
+}
+
+
+
